@@ -40,14 +40,20 @@ This tutorial demonstrations an easy way to collect images for the datasets, upl
 
 ---
 
+## Creating the Notebook at Colab
+ - Open a new notebook at Colab - https://colab.research.google.com/  
+ - Choose the Github tab and paste the URL from this repo: https://github.com/robotzero1/tf2-retrain-starwars/blob/main/retrain.ipynb  
 
-![select all and drag to upload](https://user-images.githubusercontent.com/60509953/106366360-a953e500-633b-11eb-8c12-c3021616fbeb.jpg)  
+ - Open the folders menu on the left and right click to create new folders in the sample_data folder:  
 
+![new folder](https://user-images.githubusercontent.com/60509953/106366368-abb63f00-633b-11eb-885f-e0266ccc226d.jpg) 
+
+ - Create the following structure:  
+ 
 ![folder structure](https://user-images.githubusercontent.com/60509953/106366364-aa851200-633b-11eb-8b24-978ddcf7ce86.jpg)  
 
 
-
-![new folder](https://user-images.githubusercontent.com/60509953/106366368-abb63f00-633b-11eb-885f-e0266ccc226d.jpg)  
+![select all and drag to upload](https://user-images.githubusercontent.com/60509953/106366360-a953e500-633b-11eb-8c12-c3021616fbeb.jpg)   
 
 ![run all](https://user-images.githubusercontent.com/60509953/106366370-ac4ed580-633b-11eb-8df9-e89eeaeac820.jpg)  
 
