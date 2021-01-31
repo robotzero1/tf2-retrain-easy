@@ -1,7 +1,7 @@
 # tf2-retrain-starwars
-Tensorflow retraining with a Star Wars dataset of R2D2, C3PO and Darth Vader. 
+Tensorflow retraining with an image dataset of R2D2, C3PO and Darth Vader. 
 
-This tutorial demonstrations probably the easiest way to create a model for object recognition. To collect images for the datasets, uploading the datasets to a script on Google Colab and creating Tensorflow models in cxx, lite and tensorflow.js format.
+This tutorial demonstrations probably the easiest way to create a model for object recognition. Images for the datasets are collected from Google Image Search and uploaded to a script on Google Colab which creates Tensorflow models in SavedModel, TensorFlow.js graph model, TensorFlow Lite format and C array style for microcontrollers.
 
 ## Collecting Images
  - In the Chrome browser install this extension: https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf/
@@ -60,7 +60,7 @@ This tutorial demonstrations probably the easiest way to create a model for obje
 
 ![run all](https://user-images.githubusercontent.com/60509953/106366370-ac4ed580-633b-11eb-8df9-e89eeaeac820.jpg)  
 
- - The script will run and generate the model in xxxxx , C style, TensorFlow.js and TensorFlow Lite format. The new files will be in the /tmp folder which can be found my moving up one directory from the /content directory  
+ - The script will run and generate the model in SavedModel, C array style, TensorFlow.js graph model and TensorFlow Lite format. The new files will be in the /tmp folder which can be found my moving up one directory (click the folder with the white arrow) from the /content directory  
 
 ![tmp folder](https://user-images.githubusercontent.com/60509953/106389100-f4c0ce80-63e1-11eb-81cb-fb08f0316c55.jpg)  
 
