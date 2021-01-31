@@ -1,7 +1,7 @@
 # tf2-retrain-starwars
-Tensorflow retraining with a Star Wars data set of R2D2, C3PO and Darth Vader. 
+Tensorflow retraining with a Star Wars dataset of R2D2, C3PO and Darth Vader. 
 
-This tutorial demonstrations an easy way to collect images for the datasets, uploading the datasets to a script on Google Colab and creating Tensorflow models in cxx, lite and tensorflow.js format.
+This tutorial demonstrations probably the easiest way to create a model for object recognition. To collect images for the datasets, uploading the datasets to a script on Google Colab and creating Tensorflow models in cxx, lite and tensorflow.js format.
 
 ## Collecting Images
  - In the Chrome browser install this extension: https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf/
@@ -52,9 +52,20 @@ This tutorial demonstrations an easy way to collect images for the datasets, upl
  
 ![folder structure](https://user-images.githubusercontent.com/60509953/106366364-aa851200-633b-11eb-8b24-978ddcf7ce86.jpg)  
 
+ - Drag the images from your folders to the folders on Colab:  
 
 ![select all and drag to upload](https://user-images.githubusercontent.com/60509953/106366360-a953e500-633b-11eb-8c12-c3021616fbeb.jpg)   
 
+ - When all the images have been uploaded, select 'Runtime' > 'Run all' from the menu
+
 ![run all](https://user-images.githubusercontent.com/60509953/106366370-ac4ed580-633b-11eb-8df9-e89eeaeac820.jpg)  
+
+ - The script will run and generate the model in xxxxx , C style, TensorFlow.js and TensorFlow Lite format. The new files will be in the /tmp folder which can be found my moving up one directory from the /content directory  
+
+![tmp folder](https://user-images.githubusercontent.com/60509953/106389100-f4c0ce80-63e1-11eb-81cb-fb08f0316c55.jpg)  
+
+ - If the True label and Predicted label are giving poor results, try adding more images or removing any that might confuse the classifier algorithm. Also just running the script again with the 'Run all' command can improve things as the training has a random element each time. For example the difficult image below was Predicted as C3PO on one classification run through.  
+
+![test output](https://user-images.githubusercontent.com/60509953/106389102-f5f1fb80-63e1-11eb-9914-78efd57cce50.jpg)
 
 
