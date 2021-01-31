@@ -1,5 +1,5 @@
 # TensorFlow Fast and Easy Image Classification
-TensorFlow retraining with an image dataset of R2D2, C3PO and Darth Vader. 
+TensorFlow retraining just by uploading image folders and running a script on Colab. 
 
 This tutorial demonstrations probably the easiest way to create a model for object recognition. Images for the datasets are collected from Google Image Search and uploaded to a script on Google Colab which creates Tensorflow models in SavedModel, TensorFlow.js graph model, TensorFlow Lite format and C array style for microcontrollers.
 
