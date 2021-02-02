@@ -1,1 +1,1 @@
-Folders containing the models and other data output from the script
+These are the files generated from my dataset for use with TensorFlow.js. Untested at the moment.
