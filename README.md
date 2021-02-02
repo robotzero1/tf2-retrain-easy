@@ -68,6 +68,8 @@ This tutorial demonstrations probably the easiest way to create a model for obje
 
 ![test output](https://user-images.githubusercontent.com/60509953/106389102-f5f1fb80-63e1-11eb-9914-78efd57cce50.jpg)
 
- - I've uploaded a video showing the process running on Colab to YouTube here - https://youtu.be/hrv6yGmS9RE
+ - I've uploaded a video showing the process running on Colab to YouTube here - https://youtu.be/hrv6yGmS9RE  
+ 
+ - How retraining works - https://www.youtube.com/watch?v=QfNvhPx5Px8  
 
 
